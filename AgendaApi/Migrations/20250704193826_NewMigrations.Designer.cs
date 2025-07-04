@@ -4,6 +4,7 @@ using AgendaApi;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AgendaApi.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250704193826_NewMigrations")]
+    partial class NewMigrations
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -30,9 +33,8 @@ namespace AgendaApi.Migrations
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("AgendamentoId"));
 
-                    b.Property<string>("ClienteUserId")
-                        .IsRequired()
-                        .HasColumnType("longtext");
+                    b.Property<int>("ClienteUserId")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("DataHoraFim")
                         .HasColumnType("datetime(6)");
@@ -43,9 +45,8 @@ namespace AgendaApi.Migrations
                     b.Property<string>("Observacoes")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("ProfissionalUserId")
-                        .IsRequired()
-                        .HasColumnType("longtext");
+                    b.Property<int>("ProfissionalUserId")
+                        .HasColumnType("int");
 
                     b.Property<string>("TituloAgendamento")
                         .IsRequired()

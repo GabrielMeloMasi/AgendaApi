@@ -228,10 +228,10 @@ C:\Users\2568455\Desktop\Projects\AgendaApi\AgendaApi\obj\Debug\net9.0\staticweb
 C:\Users\2568455\Desktop\Projects\AgendaApi\AgendaApi\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.AgendaApi.props
 C:\Users\2568455\Desktop\Projects\AgendaApi\AgendaApi\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.AgendaApi.props
 C:\Users\2568455\Desktop\Projects\AgendaApi\AgendaApi\obj\Debug\net9.0\staticwebassets.pack.json
-C:\Users\2568455\Desktop\Projects\AgendaApi\AgendaApi\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\2568455\Desktop\Projects\AgendaApi\AgendaApi\obj\Debug\net9.0\AgendaApi.csproj.Up2Date
 C:\Users\2568455\Desktop\Projects\AgendaApi\AgendaApi\obj\Debug\net9.0\AgendaApi.dll
 C:\Users\2568455\Desktop\Projects\AgendaApi\AgendaApi\obj\Debug\net9.0\refint\AgendaApi.dll
 C:\Users\2568455\Desktop\Projects\AgendaApi\AgendaApi\obj\Debug\net9.0\AgendaApi.pdb
 C:\Users\2568455\Desktop\Projects\AgendaApi\AgendaApi\obj\Debug\net9.0\AgendaApi.genruntimeconfig.cache
 C:\Users\2568455\Desktop\Projects\AgendaApi\AgendaApi\obj\Debug\net9.0\ref\AgendaApi.dll
+C:\Users\2568455\Desktop\Projects\AgendaApi\AgendaApi\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
