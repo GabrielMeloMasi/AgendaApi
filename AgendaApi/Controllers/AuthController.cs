@@ -1,5 +1,7 @@
 ﻿using AgendaApi.DTOs;
 using AgendaApi.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
@@ -9,6 +11,7 @@ using System.Text;
 
 namespace AgendaApi.Controllers
 {
+    [EnableCors("AllowFrontend")]
     [ApiController]
     [Route("api/[controller]")]
     public class AuthController : Controller

@@ -1,17 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\2568455\\Desktop\\Projects\\TrakStore\\AgendaApi\\",
+  "WorkspaceRootPath": "C:\\Users\\2568455\\Desktop\\Projects\\AgendaApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5514A942-6AF8-40F1-8F42-0E1A712448CF}|AgendaApi\\AgendaApi.csproj|c:\\users\\2568455\\desktop\\projects\\trakstore\\agendaapi\\agendaapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5514A942-6AF8-40F1-8F42-0E1A712448CF}|AgendaApi\\AgendaApi.csproj|c:\\users\\2568455\\desktop\\projects\\agendaapi\\agendaapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5514A942-6AF8-40F1-8F42-0E1A712448CF}|AgendaApi\\AgendaApi.csproj|solutionrelative:agendaapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5514A942-6AF8-40F1-8F42-0E1A712448CF}|AgendaApi\\AgendaApi.csproj|c:\\users\\2568455\\desktop\\projects\\trakstore\\agendaapi\\agendaapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5514A942-6AF8-40F1-8F42-0E1A712448CF}|AgendaApi\\AgendaApi.csproj|c:\\users\\2568455\\desktop\\projects\\agendaapi\\agendaapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5514A942-6AF8-40F1-8F42-0E1A712448CF}|AgendaApi\\AgendaApi.csproj|solutionrelative:agendaapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5514A942-6AF8-40F1-8F42-0E1A712448CF}|AgendaApi\\AgendaApi.csproj|c:\\users\\2568455\\desktop\\projects\\trakstore\\agendaapi\\agendaapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5514A942-6AF8-40F1-8F42-0E1A712448CF}|AgendaApi\\AgendaApi.csproj|c:\\users\\2568455\\desktop\\projects\\agendaapi\\agendaapi\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5514A942-6AF8-40F1-8F42-0E1A712448CF}|AgendaApi\\AgendaApi.csproj|solutionrelative:agendaapi\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5514A942-6AF8-40F1-8F42-0E1A712448CF}|AgendaApi\\AgendaApi.csproj|c:\\users\\2568455\\desktop\\projects\\agendaapi\\agendaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5514A942-6AF8-40F1-8F42-0E1A712448CF}|AgendaApi\\AgendaApi.csproj|solutionrelative:agendaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5514A942-6AF8-40F1-8F42-0E1A712448CF}|AgendaApi\\AgendaApi.csproj|c:\\users\\2568455\\desktop\\projects\\agendaapi\\agendaapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5514A942-6AF8-40F1-8F42-0E1A712448CF}|AgendaApi\\AgendaApi.csproj|solutionrelative:agendaapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,28 +30,52 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\2568455\\Desktop\\Projects\\AgendaApi\\AgendaApi\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "AgendaApi\\DTOs\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\2568455\\Desktop\\Projects\\AgendaApi\\AgendaApi\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "AgendaApi\\DTOs\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T13:20:59.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2568455\\Desktop\\Projects\\AgendaApi\\AgendaApi\\Program.cs",
+              "RelativeDocumentMoniker": "AgendaApi\\Program.cs",
+              "ToolTip": "C:\\Users\\2568455\\Desktop\\Projects\\AgendaApi\\AgendaApi\\Program.cs",
+              "RelativeToolTip": "AgendaApi\\Program.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAQwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T12:43:01.382Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\2568455\\Desktop\\Projects\\TrakStore\\AgendaApi\\AgendaApi\\Controllers\\AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\2568455\\Desktop\\Projects\\AgendaApi\\AgendaApi\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "AgendaApi\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\2568455\\Desktop\\Projects\\TrakStore\\AgendaApi\\AgendaApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\2568455\\Desktop\\Projects\\AgendaApi\\AgendaApi\\Controllers\\AuthController.cs",
               "RelativeToolTip": "AgendaApi\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAQwEcAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-02T18:39:00.601Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\2568455\\Desktop\\Projects\\TrakStore\\AgendaApi\\AgendaApi\\Models\\User.cs",
+              "DocumentMoniker": "C:\\Users\\2568455\\Desktop\\Projects\\AgendaApi\\AgendaApi\\Models\\User.cs",
               "RelativeDocumentMoniker": "AgendaApi\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\2568455\\Desktop\\Projects\\TrakStore\\AgendaApi\\AgendaApi\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\2568455\\Desktop\\Projects\\AgendaApi\\AgendaApi\\Models\\User.cs",
               "RelativeToolTip": "AgendaApi\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -53,9 +85,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "RegisterDTO.cs",
-              "DocumentMoniker": "C:\\Users\\2568455\\Desktop\\Projects\\TrakStore\\AgendaApi\\AgendaApi\\DTOs\\RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\2568455\\Desktop\\Projects\\AgendaApi\\AgendaApi\\DTOs\\RegisterDTO.cs",
               "RelativeDocumentMoniker": "AgendaApi\\DTOs\\RegisterDTO.cs",
-              "ToolTip": "C:\\Users\\2568455\\Desktop\\Projects\\TrakStore\\AgendaApi\\AgendaApi\\DTOs\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\2568455\\Desktop\\Projects\\AgendaApi\\AgendaApi\\DTOs\\RegisterDTO.cs",
               "RelativeToolTip": "AgendaApi\\DTOs\\RegisterDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
