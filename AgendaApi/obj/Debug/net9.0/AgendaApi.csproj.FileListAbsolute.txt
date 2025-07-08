@@ -235,3 +235,4 @@ C:\Users\2568455\Desktop\Projects\AgendaApi\AgendaApi\obj\Debug\net9.0\AgendaApi
 C:\Users\2568455\Desktop\Projects\AgendaApi\AgendaApi\obj\Debug\net9.0\AgendaApi.genruntimeconfig.cache
 C:\Users\2568455\Desktop\Projects\AgendaApi\AgendaApi\obj\Debug\net9.0\ref\AgendaApi.dll
 C:\Users\2568455\Desktop\Projects\AgendaApi\AgendaApi\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\2568455\Desktop\Projects\AgendaApi\AgendaApi\bin\Debug\net9.0\AutoMapper.dll

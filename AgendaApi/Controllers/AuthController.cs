@@ -34,7 +34,7 @@ namespace AgendaApi.Controllers
             if (model.Role != "Cliente" && model.Role != "Profissional")
                 return BadRequest("Role inválida.");
 
-            var user = new User { UserName = model.Email, Email = model.Email, Cpf = model.Cpf, NomeCompleto = model.NomeCompleto, TipoUsuario = model.Role};
+            var user = new User { UserName = model.Email, Email = model.Email, Cpf = model.Cpf, NomeCompleto = model.NomeCompleto, TipoUsuario = model.Role, Especialidade = model.Especialidade};
             var result = await _userManager.CreateAsync(user, model.Password);
 
             if (!result.Succeeded)
@@ -47,7 +47,7 @@ namespace AgendaApi.Controllers
             // Atribui a role única ao usuário
             await _userManager.AddToRoleAsync(user, model.Role);
 
-            return Ok("Usuário criado com sucesso!");
+            return Ok(new { message = "Usuário criado com sucesso!" });
         }
 
         [HttpPost("login")]

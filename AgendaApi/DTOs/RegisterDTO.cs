@@ -7,5 +7,6 @@
         public string Role { get; set; } // "Cliente" ou "Profissional"
         public string Cpf { get; set; }
         public string NomeCompleto { get; set;  }
+        public string? Especialidade { get; set; }
     }
 }

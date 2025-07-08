@@ -1,11 +1,15 @@
 using AgendaApi;
+using AgendaApi.DTOs.Mappings;
 using AgendaApi.Models;
 using AgendaApi.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using AutoMapper;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -62,7 +66,9 @@ builder.Services.AddCors(options =>
 
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddScoped<IAgendamentoRepository, AgendamentoRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddAutoMapper(typeof(UserDTOMappingProfile));
 
 var app = builder.Build();
 

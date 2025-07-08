@@ -73,6 +73,38 @@
     "EndpointName": "AgendamentoById"
   },
   {
+    "ContainingType": "AgendaApi.Controllers.AgendamentoController",
+    "Method": "GetAgendamentoPorProfissionalECliente",
+    "RelativePath": "api/Agendamento/{profissionalId}/{clientId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profissionalId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "clientId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AgendaApi.Models.Agendamento",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetAgendamentoPorProfissionalECliente"
+  },
+  {
     "ContainingType": "AgendaApi.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/login",
@@ -103,5 +135,72 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AgendaApi.Controllers.UserController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/User",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[AgendaApi.Models.User, AgendaApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AgendaApi.Controllers.UserController",
+    "Method": "GetUserByEspecialidade",
+    "RelativePath": "api/User/{especialidade}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "especialidade",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[AgendaApi.Models.User, AgendaApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "ProfissionalByEspecialidade"
+  },
+  {
+    "ContainingType": "AgendaApi.Controllers.UserController",
+    "Method": "GetAllUsersProfissional",
+    "RelativePath": "api/User/ProfissionalUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[AgendaApi.Models.User, AgendaApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]
