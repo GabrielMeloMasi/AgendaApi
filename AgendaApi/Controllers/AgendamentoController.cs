@@ -44,6 +44,18 @@ namespace AgendaApi.Controllers
             return Ok(agendamento);
         }
 
+        [HttpGet("{clientId}", Name = "GetAgendamentoPorClientId")]
+        public ActionResult<Agendamento> GetAgendamentoPorClientId(string clientId)
+        {
+            var agendamento = _unityOfWork.AgendamentoRepository.GetByClientId(clientId);
+            if (agendamento == null)
+            {
+                return NotFound();
+            }
+            return Ok(agendamento);
+        }
+
+
         [HttpPost]
         public ActionResult<Agendamento> Post(Agendamento agendamento)
         {

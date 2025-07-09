@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\2568455\\Desktop\\Projects\\AgendaApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5514A942-6AF8-40F1-8F42-0E1A712448CF}|AgendaApi\\AgendaApi.csproj|c:\\users\\2568455\\desktop\\projects\\agendaapi\\agendaapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5514A942-6AF8-40F1-8F42-0E1A712448CF}|AgendaApi\\AgendaApi.csproj|solutionrelative:agendaapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5514A942-6AF8-40F1-8F42-0E1A712448CF}|AgendaApi\\AgendaApi.csproj|c:\\users\\2568455\\desktop\\projects\\agendaapi\\agendaapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5514A942-6AF8-40F1-8F42-0E1A712448CF}|AgendaApi\\AgendaApi.csproj|solutionrelative:agendaapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5514A942-6AF8-40F1-8F42-0E1A712448CF}|AgendaApi\\AgendaApi.csproj|c:\\users\\2568455\\desktop\\projects\\agendaapi\\agendaapi\\controllers\\agendamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5514A942-6AF8-40F1-8F42-0E1A712448CF}|AgendaApi\\AgendaApi.csproj|solutionrelative:agendaapi\\controllers\\agendamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\2568455\\Desktop\\Projects\\AgendaApi\\AgendaApi\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "AgendaApi\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\2568455\\Desktop\\Projects\\AgendaApi\\AgendaApi\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "AgendaApi\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAArwBMAAAAAAAAAAAAAAA==",
+              "Title": "AgendamentoController.cs",
+              "DocumentMoniker": "C:\\Users\\2568455\\Desktop\\Projects\\AgendaApi\\AgendaApi\\Controllers\\AgendamentoController.cs",
+              "RelativeDocumentMoniker": "AgendaApi\\Controllers\\AgendamentoController.cs",
+              "ToolTip": "C:\\Users\\2568455\\Desktop\\Projects\\AgendaApi\\AgendaApi\\Controllers\\AgendamentoController.cs",
+              "RelativeToolTip": "AgendaApi\\Controllers\\AgendamentoController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAmwDEAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T19:28:14.708Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\2568455\\Desktop\\Projects\\AgendaApi\\AgendaApi\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "AgendaApi\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\2568455\\Desktop\\Projects\\AgendaApi\\AgendaApi\\Controllers\\UserController.cs",
-              "RelativeToolTip": "AgendaApi\\Controllers\\UserController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA5wDcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T19:22:45.012Z",
+              "WhenOpened": "2025-07-09T13:00:27.539Z",
               "EditorCaption": ""
             }
           ]

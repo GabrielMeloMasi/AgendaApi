@@ -47,6 +47,33 @@
   },
   {
     "ContainingType": "AgendaApi.Controllers.AgendamentoController",
+    "Method": "GetAgendamentoPorClientId",
+    "RelativePath": "api/Agendamento/{clientId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AgendaApi.Models.Agendamento",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetAgendamentoPorClientId"
+  },
+  {
+    "ContainingType": "AgendaApi.Controllers.AgendamentoController",
     "Method": "GetAgendamentoById",
     "RelativePath": "api/Agendamento/{id}",
     "HttpMethod": "GET",

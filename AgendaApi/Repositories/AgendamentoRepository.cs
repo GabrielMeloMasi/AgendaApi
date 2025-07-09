@@ -7,5 +7,10 @@ namespace AgendaApi.Repositories
         public AgendamentoRepository(AppDbContext context) : base(context)
         {
         }
+
+        public IEnumerable<Agendamento> GetByClientId(string clientId)
+        {
+            return GetAll().Where(a => a.ClienteUserId == clientId);
+        }
     }
 }
